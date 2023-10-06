@@ -5,7 +5,9 @@
 
 {% block page_content %}
 <div class="page-header">
-    <h1>Hello, {% if name %}{{ name }}{% else %}Stranger{% endif %}!</h1>
+    <h1>Hello, {% if name %}{{ name }}{% else %}Stranger{% endif %}!Welcome to Lab3 Docker</h1>
+    <!-- <h1>Hello, {% if not name %}Stranger! Welcome to Lab3 Docker!{% else %}{{ name }}{% endif %}!</h1> -->
+
     {% if notutmail %}
         <h1>Please use your UT email.</h1>
     {% else %}

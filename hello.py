@@ -52,3 +52,15 @@ def index():
             session['notutmail'] = True
         return redirect(url_for('index'))
     return render_template('index.html', form=form, name=session.get('name'), email=session.get('email'),notutmail = session.get('notutmail'))
+
+# @app.route('/user/<name>')
+# def user(name):
+#     return render_template('user.html',name = name, cur)
+@app.route('/user/<name>')
+def user(name):
+    return render_template('user.html', name=name)
+
+@app.route('/clear')
+def clear_session_data():
+    session.clear()
+    return redirect(url_for(index))
