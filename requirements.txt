@@ -1,0 +1,10 @@
+#this file may be used to create an environment using:
+flask
+flask_bootstrap
+flask_moment
+flask_wtf
+itsdangerous
+jinja2
+werkzeug
+#in case there are errors on windows use werkzeug-2.0.3
+wtforms
