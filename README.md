@@ -14,4 +14,3 @@ Activity 4
 
 ![44fb6f09d4ca4812ee881ee4884d0ee](https://github.com/xieruoyi/ECE444-F2023-Lab1/assets/105222584/c69fd735-2e10-4ff2-9ed3-e9da3dd04368)
 
-
